@@ -337,6 +337,41 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+
+/* McSpadden Alts
+================================================== */
+header {
+  padding-bottom: 20px;
+}
+
+header h1 {
+  color: #d5000d;
+}
+header h2 {
+  color: #303030;
+}
+
+#mc_embed_signup {
+  margin-bottom: 20px;
+}
+
+#mc_embed_signup form {
+  background: inherit;
+  padding: 0px;
+}
+
+#mc_embed_signup form input[type=email] {
+  font-size: 1.2em;
+  width: 300px;
+}
+
+#mc_embed_signup form input[type=submit] {
+  font-size: 1.1em;
+}
+/* End McSpadden Alts
+================================================== */
+
+
 /* #Media Queries
 ================================================== */
 
