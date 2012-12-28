@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Proxima Nova", Arial;
+}
+#container {
+  background: #fff6ec;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+#main {
+  /*padding: 0 70px;*/
+}
+
+section.details {
+  font-family: "Proxima Nova Condensed";
+  font-size: 18px;
+  padding: 25px 70px 35px;
+  text-align: center;
+  overflow: hidden;
+}
+
+section.details h4 {
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+a, a:visited, a:active {
+  color: inherit;
+}

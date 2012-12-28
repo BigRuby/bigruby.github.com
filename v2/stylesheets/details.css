@@ -1,0 +1,22 @@
+.headliners {
+  background-color: #445569;
+}
+.headliners h4 {
+  color: #fa7272;
+}
+.headliners p {
+  color: #aaadb0;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.themes {
+  background-color: #b1d1b8;
+}
+.themes h4 {
+  color: #5e7062;
+}
+.themes p {
+  color: #5e7062;
+  font-weight: 100;
+}

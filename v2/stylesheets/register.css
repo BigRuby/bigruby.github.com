@@ -1,0 +1,40 @@
+.registration {
+  background-color: #e5d0b9;
+  color: #807363;
+  font-family: "Proxima Nova Condensed";
+}
+.registration p {
+  margin-bottom: 40px;
+}
+.registration p.info {
+  border: 1px solid #807363;
+  border-right: 0;
+  border-left: 0;
+  padding: 20px 0;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.registration p.info.left {
+  float: left;
+}
+.registration p.info.right {
+  float: right;
+}
+.registration a.register {
+  background-color: #807363;
+  color: #dfc8ae;
+  font-size: 32px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 18px 10px 5px;
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 37px;
+  cursor: pointer;
+}
+.registration a.register:hover {
+  text-decoration: underline;
+}
