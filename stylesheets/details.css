@@ -176,7 +176,7 @@ ORGANIZERS
 }
 .organizers .avatars {
   margin: 0 auto;
-  width: 580px;
+  width: 600px;
   overflow: hidden;
 }
 .organizers .avatar {
@@ -202,7 +202,7 @@ ORGANIZERS
   border: 8px solid #d1dade;
 
 }
-.organizers .avatar .filter {
+/*.organizers .avatar .filter {
   position: absolute;
   display: block;
   background: #293a44;
@@ -214,6 +214,14 @@ ORGANIZERS
 }
 .organizers .avatar .filter:hover {
   opacity: 0.1;
+}*/
+
+.organizers .avatar .filter {
+  opacity: 0.8;
+}
+
+.organizers .avatar .filter:hover {
+  opacity: 1.0;
 }
 
 .organizers p.legal {
@@ -228,5 +236,6 @@ ORGANIZERS
   color: #5c7786;
 }
 .organizers p.oven_bits img {
+  margin-top: 20px;
   width: 150px;
 }
