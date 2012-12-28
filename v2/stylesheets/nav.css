@@ -1,9 +1,8 @@
 #main-nav {
   position: fixed;
   background-color: #913f3f;
-  font-family: "Proxima Nova Condensed";
-  /*font-family: "Proxima Nova Alt Condensed Semibold";*/
-  font-weight: 600;
+  font-family: 'Proxima N W01 Cd Smbd', Arial;
+  /*font-weight: 600;*/
   font-size: 18px;
   height: 60px;
   width: 1140px;
@@ -35,7 +34,7 @@
   background: #fff6ec;
   color: #913f3f;
   border-radius: 5px;
-  padding: 18px 10px 16px;
-  margin-top: 0px;
+  padding: 12px 10px 8px;
+  margin-top: 6px;
   margin-left: 40px;
 }

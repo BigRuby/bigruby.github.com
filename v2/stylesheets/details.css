@@ -1,5 +1,5 @@
 section.details {
-  font-family: "Proxima Nova Condensed";
+  font-family: 'Proxima N W01 Cd Reg', Arial;
   font-size: 18px;
   padding: 70px 70px 35px;
   text-align: center;
@@ -7,8 +7,9 @@ section.details {
 }
 
 .details h4 {
+  font-family: 'Proxima N W01 Black', Arial;
   margin: 20px 0 0 0;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 50px;
   text-transform: uppercase;
 }

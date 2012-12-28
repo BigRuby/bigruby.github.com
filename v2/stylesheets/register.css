@@ -1,7 +1,7 @@
 .registration {
   background-color: #e5d0b9;
   color: #807363;
-  font-family: "Proxima Nova Condensed";
+  font-family: 'Proxima N W01 Cd Reg', Arial;
 }
 .registration p {
   margin-bottom: 40px;
@@ -28,9 +28,9 @@
   font-size: 32px;
   text-transform: uppercase;
   border-radius: 5px;
-  padding: 18px 10px 5px;
+  padding: 12px 10px 5px;
   display: block;
-  margin: 0 auto;
+  margin: 4px auto;
   width: 250px;
   height: 37px;
   cursor: pointer;
