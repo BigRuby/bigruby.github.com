@@ -1,5 +1,5 @@
 #main-nav {
-  position: relative;
+  position: fixed;
   background-color: #913f3f;
   font-family: "Proxima Nova Condensed";
   /*font-family: "Proxima Nova Alt Condensed Semibold";*/
