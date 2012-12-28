@@ -1,3 +1,31 @@
+section.details {
+  font-family: "Proxima Nova Condensed";
+  font-size: 18px;
+  padding: 25px 70px 35px;
+  text-align: center;
+  overflow: hidden;
+}
+
+section.details h4 {
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+section.details p.action {
+  margin-top: 40px;
+  font-weight: normal;
+}
+section.details p.action a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+section.details p.action a:hover {
+  text-decoration: none;
+}
+
 .headliners {
   background-color: #445569;
 }
@@ -19,4 +47,117 @@
 .themes p {
   color: #5e7062;
   font-weight: 100;
+}
+.themes .lead {
+  margin-bottom: 40px;
+}
+.themes section.left {
+  float: left;
+  width: 520px;
+  margin-right: 20px;
+}
+.themes section.right {
+  margin-left: 540px;
+}
+.themes section {
+  text-align: left;
+}
+.themes section h5 {
+  color: #5e7062;
+  font-size: 26px;
+  margin: 0;
+}
+
+
+
+
+
+
+
+.locations {
+  background-color: #c76060;
+}
+.locations h4 {
+  color: #913f3f;
+}
+.locations p {
+  color: #913f3f;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.sponsors {
+  background-color: #3a4d58;
+}
+.sponsors h4 {
+  color: #fff6ec;
+}
+.sponsors p {
+  color: #fff6ec;
+}
+
+.organizers {
+  background-color: #bdcad0;
+}
+.organizers h4 {
+  color: #7d2219;
+}
+.organizers p {
+  color: #7d2219;
+}
+.organizers .avatars {
+  margin: 0 auto;
+  width: 580px;
+  overflow: hidden;
+}
+.organizers .avatar {
+  float: left;
+  width: 100px;
+  margin-right: 60px;
+  color: #293a44;
+}
+.organizers .avatar:last-child {
+  margin-right: 0;
+}
+.organizers .avatar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.organizers .avatar a:hover {
+  text-decoration: underline;
+}
+.organizers .avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 58px;
+  border: 8px solid #d1dade;
+
+}
+.organizers .avatar .filter {
+  position: absolute;
+  display: block;
+  background: #293a44;
+  opacity: 0.4;
+  width: 100px;
+  height: 100px;
+  border-radius: 58px;
+  border: 8px solid #d1dade;            
+}
+.organizers .avatar .filter:hover {
+  opacity: 0.1;
+}
+
+.organizers p.legal {
+  clear: both;
+  margin: 80px 0;
+  color: #5c7786;
+}
+
+.organizers p.oven_bits {
+  clear: both;
+  margin: 80px 0;
+  color: #5c7786;
+}
+.organizers p.oven_bits img {
+  width: 150px;
 }

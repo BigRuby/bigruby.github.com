@@ -5,6 +5,7 @@ body {
 #container {
   background: #fff6ec;
   margin: 0 auto;
+  padding: 0 0 350px 0;
   width: 1140px;
 }
 
@@ -12,20 +13,7 @@ body {
   /*padding: 0 70px;*/
 }
 
-section.details {
-  font-family: "Proxima Nova Condensed";
-  font-size: 18px;
-  padding: 25px 70px 35px;
-  text-align: center;
-  overflow: hidden;
-}
 
-section.details h4 {
-  margin: 20px 0 0 0;
-  font-weight: bold;
-  font-size: 50px;
-  text-transform: uppercase;
-}
 
 a, a:visited, a:active {
   color: inherit;
