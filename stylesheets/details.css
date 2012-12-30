@@ -195,12 +195,19 @@ ORGANIZERS
 .organizers .avatar a:hover {
   text-decoration: none;
 }
-.organizers .avatar img {
+
+.organizers .avatar div {
+  overflow: hidden;
   width: 100px;
   height: 100px;
   border-radius: 58px;
   border: 8px solid #d1dade;
+}
 
+.organizers .avatar img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.8;
 }
 /*.organizers .avatar .filter {
   position: absolute;
@@ -220,7 +227,7 @@ ORGANIZERS
   opacity: 0.8;
 }
 
-.organizers .avatar .filter:hover {
+.organizers .avatar .filter:hover  {
   opacity: 1.0;
 }
 
