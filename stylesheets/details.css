@@ -221,9 +221,13 @@ SPONSORS
 }
 .sponsors h4 {
   color: #fff6ec;
+  margin-bottom: 40px;
 }
 .sponsors p {
   color: #fff6ec;
+}
+.sponsors img.base {
+  width: 200px;
 }
 
 /*
