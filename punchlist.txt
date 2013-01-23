@@ -1,0 +1,57 @@
+Punch List
+
+Width of body and sections - Full width but limited width section
+  BG colors expand - content doesn't
+
+Header - Add 30px padding to top
+  Big Ruby - letter-spacing -0.03em
+
+Header background image - Two images - Clouds + City
+
+Register - Top padding of 90px total - section.details { padding-top: 30px 70px 55px } (FOR REGISTRATION)
+
+Registration Hoverstate - opactiy - 0.8; drop underline
+
+Registration button aligned 
+
+Code Editor - Tabbed navigation
+
+All h4 - letter-spacing { letter-spacing: .05em }
+
+THEMES
+
+p.lead Proxima Nueva Bold
+
+.themes .lead { margin-top: 5px; }
+
+h5 - text-transform: uppercase; | Proxima Nueva Cnd Semibold
+
+.themes p { line-height: 1.7em; }
+
+paper icon for all
+
+Call to Action: Proxima Nueva - uppercase - Raquo
+
+SCHEDULE
+
+Content for lead
+
+Months - uppercase
+
+PRECONFERENCE - Proxima Nueva Black
+
+Location
+
+Slice and dice
+
+Organizers
+
+.avatars { margin-top: 50px }
+font-size: 16px;
+
+add 30px top margin to name
+
+
+Bottom
+
+Cut out extra canvas
