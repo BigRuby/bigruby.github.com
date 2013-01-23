@@ -39,11 +39,62 @@ HEADLINES
 }
 .headliners h4 {
   color: #fa7272;
+  margin-bottom: 20px;
 }
 .headliners p {
   color: #aaadb0;
   font-style: italic;
-  font-weight: 100;
+  font-size: 18px;
+}
+.headliners strong {
+  font-family: 'Proxima N W01 Reg', Arial;
+  color: #fa7272;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+.headliners .feature {
+  background-color: rgba(55, 69, 85, 0.5);
+  width: 350px;
+  height: 275px;
+  margin: 0 auto;
+  padding: 75px 0 0;
+  border-radius: 175px;
+}
+.headliners img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid #3c4b5c;
+  margin: 0 auto 26px;
+}
+.headliners .multi {
+  margin: 0 auto;
+  padding: 0 20px 0 50px;
+}
+
+.headliners .feature.small {
+  width: 200px;
+  height: 170px;
+  float: left;
+  margin: 5px -10px;
+  padding: 30px 0 0;
+  border-radius: 100px;
+}
+.headliners .feature.small img {
+  width: 76px;
+  height: 76px;
+  border-radius: 38px;
+  border: 1px solid #3c4b5c;
+  margin-bottom: 12px;
+}
+.headliners .feature.small p {
+  font-size: 14px;
+}
+.headliners .feature.small strong {
+  font-size: 14px;
 }
 
 /*
@@ -85,7 +136,7 @@ SCHEDULE
 }
 .schedule h4 {
   color: #913f3f;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .schedule h5 {
   color: #913f3f;
@@ -93,6 +144,7 @@ SCHEDULE
   font-size: 20px;
   text-align: left;
   margin-left: 70px;
+  margin-top: 20px;
 }
 .schedule p {
   color: #913f3f;
@@ -119,6 +171,7 @@ SCHEDULE
   color: #fff6ec;
   font-size: 20px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .schedule dt span {
   font-size: 28px;
