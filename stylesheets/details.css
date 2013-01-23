@@ -46,6 +46,9 @@ HEADLINES
   font-style: italic;
   font-size: 18px;
 }
+.headliners p.action {
+  font-style: normal;
+}
 .headliners strong {
   font-family: 'Proxima N W01 Reg', Arial;
   color: #fa7272;
@@ -199,8 +202,15 @@ LOCATIONS
 }
 .locations p {
   color: #913f3f;
-  font-style: italic;
-  font-weight: 100;
+  margin-bottom: 30px;
+}
+.locations > div {
+  overflow: hidden;
+}
+.locations img {
+  width: 190px;
+  float: left;
+  margin: 0 5px;
 }
 
 /*
