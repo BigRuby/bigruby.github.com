@@ -14,6 +14,7 @@
     <meta property="og:description" content="Big Ruby is a conference focused on the use of Ruby in large organizations, infrastructures, userbases, and teams. If your Ruby runs hundreds of servers, handles millions of users, and you count each and every millisecond, this is the conference for you.">
     <link rel="stylesheet" type="text/css" href="/stylesheets/desktop.css" media="screen" />
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.com/cssapi/f013636a-d606-4163-9dd7-292ec739de04.css"/>
+    <script type="text/javascript" src="/javascripts/site.js"></script>
     <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
   </head>
   <body>
@@ -31,11 +32,11 @@
           <a href="#organizers">Organizers</a>
         </div>
 
-        <a href="https://bigrubyconf2013.busyconf.com/bookings/new" class="register">Register</a>
+        <a href="https://bigrubyconf2013.busyconf.com/bookings/new" class="register button">Register</a>
       </div>
     </nav>
 
-    <section id="intro">
+    <section id="intro" class="section">
       <div class="container">
         <h1 class="intro-head">Big Ruby</h1>
         <p class="intro-byline">A Conference For People Doing Big Things With Ruby</p>
@@ -43,7 +44,7 @@
       </div>
     </section>
 
-    <section id="register">
+    <section id="register" class="section">
       <div class="container">
         <p class="register-info">
           Big Ruby is a conference focused on the use of Ruby in large organizations,
@@ -54,13 +55,13 @@
           every millisecond, this is the conference for you.
         </p>
 
-        <div class="thirds">
+        <div class="thirds group">
           <div class="third-bordered">
             $350 2 Day Conference Ticket
           </div>
 
           <div class="third-button">
-            <a href="https://bigrubyconf2013.busyconf.com/bookings/new" class="register-button">
+            <a href="https://bigrubyconf2013.busyconf.com/bookings/new" class="register-button button">
               Register Now
             </a>
           </div>
@@ -72,25 +73,25 @@
       </div>
     </section>
 
-    <section id="editor">
+    <section id="editor" class="section">
       <div class="container">
         [ editor goes here ]
       </div>
     </section>
 
-    <section id="speakers">
+    <section id="speakers" class="section">
       <div class="container">
         <h2 class="head">Speakers</h2>
       </div>
     </section>
 
-    <section id="themes">
+    <section id="themes" class="section">
       <div class="container">
         <h2 class="head with-byline">Themes</h2>
         <p class="byline">This year the conference sessions will be focused on the following themes:</p>
 
-        <div class="quads">
-          <div class="row">
+        <div class="quads group">
+          <div class="group">
             <div class="quad">
               <h3 class="theme-head">Infrastructure as Code</h3>
               <p class="theme-body">
@@ -109,7 +110,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="group">
             <div class="quad">
               <h3 class="theme-head">Need for Speed</h3>
               <p class="theme-body">
@@ -128,11 +129,9 @@
               </p>
             </div>
           </div>
-
-
         </div>
 
-        <p class="theme-foot">
+        <p class="foot">
           Want to see how the talks fit into these themes?
 
           <a href="http://bigrubyconf2013.busyconf.com/schedule/full" class="theme-link">
@@ -142,7 +141,7 @@
       </div>
     </section>
 
-    <section id="schedule">
+    <section id="schedule" class="section">
       <div class="container">
         <h2 class="head with-byline">Schedule</h2>
         <p class="byline">
@@ -152,42 +151,84 @@
       </div>
     </section>
 
-    <section id="locations">
-      <section id="schedule">
+    <section id="locations" class="section">
       <div class="container">
-        <h2 class="head with-byline">Schedule</h2>
+        <h2 class="head with-byline">Locations</h2>
         <p class="byline">Big Ruby Conf will be centered just outside Dallas in Grapevine, TX.</p>
 
         <div class="location-photos">
-          <a href="https://twitter.com/PACGrapevine" target="_blank">
-            <img src="/images/locations_17.png" alt="Venue" />
+          <a href="https://twitter.com/PACGrapevine" target="_blank" class="button">
+            <img src="/images/locations_17.png" alt="Venue" width="220" height="146" />
           </a>
-          <a href="https://foursquare.com/explore?ne=32.965251%2C-97.028632&q=hotel&sw=32.923834%2C-97.098241" target="_blank">
-            <img src="/images/locations_14.png" alt="Hotels" />
+          <a href="https://foursquare.com/explore?ne=32.965251%2C-97.028632&q=hotel&sw=32.923834%2C-97.098241" target="_blank" class="button">
+            <img src="/images/locations_14.png" alt="Hotels" width="220" height="146" />
           </a>
-          <a href="https://foursquare.com/explore?ne=32.965251%2C-97.028632&q=coffee&sw=32.923834%2C-97.098241" target="_blank">
-            <img src="/images/locations_20.png" alt="Coffee" />
+          <a href="https://foursquare.com/explore?ne=32.965251%2C-97.028632&q=coffee&sw=32.923834%2C-97.098241" target="_blank" class="button">
+            <img src="/images/locations_20.png" alt="Coffee" width="220" height="146" />
           </a>
-          <a href="https://foursquare.com/explore?ne=32.965251%2C-97.028632&q=food&sw=32.923834%2C-97.098241" target="_blank">
-            <img src="images/locations_22.png" alt="Food" />
+          <a href="https://foursquare.com/explore?ne=32.965251%2C-97.028632&q=food&sw=32.923834%2C-97.098241" target="_blank" class="button">
+            <img src="images/locations_22.png" alt="Food" width="220" height="146" />
           </a>
-          <a href="https://foursquare.com/explore?ne=32.994843%2C-96.60038&q=Airport&sw=32.663078%2C-97.157249" target="_blank">
-            <img src="images/locations_24.png" alt="Airports" />
+          <a href="https://foursquare.com/explore?ne=32.994843%2C-96.60038&q=Airport&sw=32.663078%2C-97.157249" target="_blank" class="button">
+            <img src="images/locations_24.png" alt="Airports" width="220" height="146" />
           </a>
         </div>
 
-        <p class="location-detail">
+        <p class="byline location-detail">
           The venue is a great old theatre within walking distance to food and drink.
         </p>
 
-        <p class="location-detail">
+        <p class="byline location-detail">
           It's a short drive (or Uber) from DFW airport and many hotels offer free shuttles to
           the venue.
         </p>
       </div>
     </section>
 
+    <section id="sponsors" class="section">
+      <div class="container">
+        <h2 class="head with-byline">Sponsors</h2>
+        <p class="byline">Lorem ipsum dolor sit amet loremp ipsum dolor sit amet.</p>
 
+        <div class="gold-sponsors group">
+          <a href="#" class="sponsor button">
+            <img src="/images/sponsors/gold-one@2x.png" width="450" height="175">
+          </a>
+          <a href="#" class="sponsor button">
+            <img src="/images/sponsors/gold-two@2x.png" width="450" height="175">
+          </a>
+        </div>
 
+        <div class="silver-sponsors group">
+          <a href="#" class="sponsor button">
+            <img src="/images/sponsors/silver-one@2x.png" width="275" height="145">
+          </a>
+          <a href="#" class="sponsor button">
+            <img src="/images/sponsors/silver-two@2x.png" width="275" height="145">
+          </a>
+          <a href="#" class="sponsor button">
+            <img src="/images/sponsors/silver-three@2x.png" width="275" height="145">
+          </a>
+          <a href="#" class="sponsor button">
+            <img src="/images/sponsors/silver-four@2x.png" width="275" height="145">
+          </a>
+        </div>
+
+        <p class="foot">
+          Interested in becoming a sponsor? <a href="mailto:markmcspadden@gmail.com">Send us a note</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="organizers" class="section">
+      <div class="container">
+        <h2 class="head with-byline">Organizers</h2>
+        <p class="byline expanded-byline">
+          Big Ruby Conf is coming together due to the efforts of many within the Dallas Ruby community.
+          <br>
+          For questions about the conference, you can find us on the twitters.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
