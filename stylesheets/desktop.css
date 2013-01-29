@@ -54,7 +54,11 @@ table {
 
 html, body {
   background: #fff6ec;
+<<<<<<< HEAD
   font-family: "Proxima N W01 Reg", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+  font-family: "Proxima N W01 Reg", Helvetica, Arial, sans-serif;
+>>>>>>> use relatives
   font-size: 16px; }
 
 html {
@@ -64,9 +68,14 @@ html {
   padding: 75px 0; }
 
 .head {
+<<<<<<< HEAD
   font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 50px;
   font-weight: 900;
+=======
+  font-family: "Proxima N W01 Black", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+>>>>>>> use relatives
   line-height: 1em;
   margin-bottom: 60px;
   text-align: center;
@@ -119,7 +128,11 @@ html {
     width: 100px; }
   #navigation .links {
     float: left;
+<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+    font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
+>>>>>>> use relatives
     font-size: 20px;
     line-height: 26px;
     padding-top: 27px;
@@ -138,7 +151,11 @@ html {
     color: #913f3f;
     display: block;
     float: right;
+<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+    font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
+>>>>>>> use relatives
     font-size: 20px;
     height: 20px;
     line-height: 25px;
@@ -159,9 +176,14 @@ html {
 
 .intro-head {
   color: #913f3f;
+<<<<<<< HEAD
   font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 120px;
   font-weight: 900;
+=======
+  font-family: "Proxima N W01 Black", Helvetica, Arial, sans-serif;
+  font-size: 120px;
+>>>>>>> use relatives
   letter-spacing: -0.03em;
   text-transform: uppercase; }
 
@@ -219,7 +241,11 @@ html {
   border-radius: 4px;
   color: #dfc8ae;
   display: block;
+<<<<<<< HEAD
   font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+  font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
+>>>>>>> use relatives
   font-size: 30px;
   height: 60px;
   line-height: 65px;
@@ -228,6 +254,7 @@ html {
   text-transform: uppercase; }
 
 #editor {
+<<<<<<< HEAD
   background: #374454;
   padding-bottom: 0; }
   #editor .container {
@@ -277,11 +304,15 @@ html {
     color: #ffffff; }
   #editor pre code .o {
     color: #fdbd35; }
+=======
+  background: #374454; }
+>>>>>>> use relatives
 
 #speakers {
   background: #445569; }
   #speakers .head {
     color: #fa7272; }
+<<<<<<< HEAD
   #speakers .byline, #speakers .foot, #speakers .byline a, #speakers .foot a {
     color: #aaadb0; }
   #speakers .speaker-row {
@@ -334,13 +365,21 @@ html {
         #speakers #featured-speakers .speaker-featured .speaker-name.not-featured {
           font-size: 16px;
           line-height: 48px; }
+=======
+  #speakers .byline {
+    color: #aaadb0; }
+>>>>>>> use relatives
 
 #themes {
   background: #b1d1b8; }
   #themes .head, #themes .byline, #themes .theme-head, #themes .theme-body, #themes .foot, #themes .foot a {
     color: #5e7062; }
   #themes .theme-head {
+<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+    font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
+>>>>>>> use relatives
     font-size: 26px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -409,6 +448,7 @@ html {
   #sponsors .foot a:hover {
     opacity: 0.8; }
   #sponsors .sponsor {
+<<<<<<< HEAD
     box-sizing: border-box;
     display: block;
     float: left;
@@ -426,6 +466,17 @@ html {
     width: 25%; }
     #sponsors .silver-sponsors .sponsor.missing {
       background: rgba(0, 0, 0, 0.05); }
+=======
+    display: block;
+    float: left;
+    text-align: center; }
+  #sponsors .gold-sponsors .sponsor {
+    height: 175px;
+    width: 50%; }
+  #sponsors .silver-sponsors .sponsor {
+    height: 145px;
+    width: 25%; }
+>>>>>>> use relatives
   #sponsors .gold-sponsors + .silver-sponsors {
     margin-top: 60px; }
 
@@ -433,6 +484,7 @@ html {
   background: #bdcad0; }
   #organizers .head, #organizers .byline {
     color: #7d2219; }
+<<<<<<< HEAD
   #organizers .organizer {
     color: #293a44;
     float: left;
@@ -461,3 +513,5 @@ html {
     background: url("../images/ovenbits.png") top right no-repeat; }
     #organizers #ovenbits:hover {
       background-position: top left; }
+=======
+>>>>>>> use relatives
