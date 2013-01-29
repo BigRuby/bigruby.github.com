@@ -7,4 +7,18 @@
 
   html.className = retinaDisplay ? "js retina" : "js no-retina";
 
+  $(function() {
+    var scroll;
+    html = $(html);
+    scroll = function() {
+      if ($(window).scrollTop() > 675) {
+        return html.addClass('is-scrolled');
+      } else {
+        return html.removeClass('is-scrolled');
+      }
+    };
+    scroll();
+    return $(window).on('scroll', scroll);
+  });
+
 }).call(this);

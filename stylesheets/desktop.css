@@ -38,12 +38,14 @@ html { background: #bdcad0; }
 
 .container { margin: 0 auto; min-width: 1140px; width: 1140px; }
 
-#navigation { background: #913f3f; height: 80px; }
+#navigation { background: #913f3f; height: 80px; left: 0; position: fixed; top: -80px; width: 100%; -webkit-transition: top 0.3s; -moz-transition: top 0.3s; transition: top 0.3s; z-index: 1000; }
 #navigation #logo { background: url(/images/bg-logo.png) no-repeat 0 10px; display: block; float: left; height: 80px; text-indent: -9999px; width: 100px; }
 #navigation .links { float: left; font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif; font-size: 20px; line-height: 26px; padding-top: 27px; text-transform: uppercase; }
 #navigation .links a { color: #fff6ec; display: block; float: left; margin: 0 20px; text-decoration: none; }
 #navigation .links a:hover { text-decoration: underline; }
 #navigation .register { background: #fff6ec; border-radius: 4px; color: #913f3f; display: block; float: right; font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif; font-size: 20px; height: 20px; line-height: 25px; margin-top: 13px; padding: 15px; text-decoration: none; text-transform: uppercase; }
+
+.is-scrolled #navigation { top: 0px; }
 
 #intro { background: #fff6ec url(/images/hero.png) no-repeat bottom center; height: 550px; }
 html.retina #intro { background: #fff6ec url(/images/hero@2x.png) no-repeat bottom center; background-size: 1800px 485px; }
