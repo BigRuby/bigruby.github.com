@@ -158,7 +158,7 @@ html {
   z-index: 1000;
 
   #logo {
-    background: url(/images/bg-logo.png) no-repeat 0 10px;
+    background: url(../images/bg-logo.png) no-repeat 0 10px;
     display: block;
     float: left;
     height: 80px;
@@ -214,11 +214,11 @@ html {
 // ---------------------------------------------------------------
 
 #intro {
-  background: #fff6ec url(/images/hero.png) no-repeat bottom center;
+  background: #fff6ec url(../images/hero.png) no-repeat bottom center;
   height: 550px;
 
   @include retina {
-    background: #fff6ec url(/images/hero@2x.png) no-repeat bottom center;
+    background: #fff6ec url(../images/hero@2x.png) no-repeat bottom center;
     background-size: 1800px 485px;
   }
 }
@@ -354,7 +354,7 @@ html {
     position: relative;
 
     &:before {
-      background: url(/images/themes-icon.png);
+      background: url(../images/themes-icon.png);
       content: ">";
       display: block;
       height: 42px;
@@ -365,7 +365,7 @@ html {
       width: 42px;
 
       @include retina {
-        background: url(/images/themes-icon@2x.png);
+        background: url(../images/themes-icon@2x.png);
         background-size: 100%;
       }
     }
