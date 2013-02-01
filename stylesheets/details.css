@@ -226,6 +226,10 @@ SPONSORS
 .sponsors p {
   color: #fff6ec;
 }
+.sponsors img.silver {
+  width: 350px;
+  margin-bottom: 40px;
+}
 .sponsors img.base {
   width: 200px;
 }
