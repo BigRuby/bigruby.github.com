@@ -228,7 +228,55 @@ html {
   text-transform: uppercase; }
 
 #editor {
-  background: #374454; }
+  background: #374454;
+  padding-bottom: 0; }
+  #editor .container {
+    background: url("../images/text_editor.png") top center no-repeat;
+    height: 443px;
+    line-height: 42px;
+    min-width: 943px;
+    overflow: hidden;
+    padding-top: 60px;
+    width: 943px; }
+    #editor .container ul.editor-file-list {
+      float: left;
+      padding-left: 6px;
+      padding-top: 84px;
+      width: 191px; }
+      #editor .container ul.editor-file-list li {
+        padding-left: 48px; }
+        #editor .container ul.editor-file-list li a {
+          color: #e3e3e3;
+          text-decoration: none; }
+        #editor .container ul.editor-file-list li.active {
+          background: url("../images/text_editor_selected_bg.png"); }
+          #editor .container ul.editor-file-list li.active a {
+            color: #ffffff; }
+    #editor .container .editor-line-numbers {
+      color: #e3e3e3;
+      float: left;
+      font-size: 14px;
+      margin-left: 6px;
+      text-align: center;
+      width: 42px; }
+    #editor .container .editor-files {
+      float: left;
+      font-size: 24px;
+      margin-left: 20px; }
+    html.retina #editor .container {
+      background-image: url("../images/text_editor@2x.png"); }
+  #editor pre code .k {
+    color: #fa7272; }
+  #editor pre code .nc {
+    color: #cdffd8; }
+  #editor pre code .nf {
+    color: #cdffd8; }
+  #editor pre code .c1 {
+    color: #eba5f1; }
+  #editor pre code .s1 {
+    color: #ffffff; }
+  #editor pre code .o {
+    color: #fdbd35; }
 
 #speakers {
   background: #445569; }

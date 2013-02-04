@@ -76,7 +76,40 @@
 
     <section id="editor" class="section">
       <div class="container">
-        [ editor goes here ]
+        <ul class="editor-file-list" data-action="tabs" data-target="editor-files">
+          <li><a href="#">time_date.rb</a></li>
+          <li class="active"><a href="#" data-target="venue_info">venue_info.rb</a></li>
+          <li><a href="#">conf_tracks.rb</a></li>
+          <li><a href="#">pricing_info.rb</a></li>
+          <li><a href="#">faq.rb</a></li>
+        </ul>
+
+        <ol class="editor-line-numbers">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+        </ol>
+
+        <div class="editor-files">
+          <div class="editor-file" id="venue_info"><pre><code class="ruby"><span class="k">class</span> <span class="nc">BigRubyConf</span><span class="o">::</span><span class="nc">VenueInfo</span>
+
+   <span class="k">def</span> <span class="nf">locale</span>
+        <span class="c1"># A really cool venue</span>
+        <span class="s1">&ldquo;Palace Arts Center&rdquo;</span> <span class="o">+</span> <span class="s1">&ldquo;</span><span class="nc">\n</span><span class="s1">&rdquo;</span> <span class="o">+</span>
+        <span class="s1">&ldquo;300 South Main Street&rdquo;</span> <span class="o">+</span> <span class="s1">&ldquo;</span><span class="nc">\n</span><span class="s1">&rdquo;</span> <span class="o">+</span>
+        <span class="s1">&ldquo;Grapevine, TX 76051&rdquo;</span>
+    <span class="k">end</span>
+
+<span class="k">end</span></code></pre>
+            </div>
+        </div>
       </div>
     </section>
 

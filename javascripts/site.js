@@ -21,4 +21,10 @@
     return $(window).on('scroll', scroll);
   });
 
+  $(function() {
+    $('[data-action="tabs"] a').on('click', function(event) {
+      event.preventDefault();
+    });
+  });
+
 }).call(this);

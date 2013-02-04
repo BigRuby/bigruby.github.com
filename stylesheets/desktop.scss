@@ -320,6 +320,70 @@ html {
 
 #editor {
   background: #374454;
+  padding-bottom: 0;
+
+  .container {
+    background: url('../images/text_editor.png') top center no-repeat;
+    height: 443px;
+    line-height: 42px;
+    min-width: 943px;
+    overflow: hidden;
+    padding-top: 60px;
+    width: 943px;
+
+    ul.editor-file-list {
+      float: left;
+      padding-left: 6px;
+      padding-top: 84px;
+      width: 191px;
+
+      li {
+        padding-left: 48px;
+
+        a {
+          color: #e3e3e3;
+          text-decoration: none;
+        }
+
+        &.active {
+          background: url('../images/text_editor_selected_bg.png');
+
+          a {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .editor-line-numbers {
+      color: #e3e3e3;
+      float: left;
+      font-size: 14px;
+      margin-left: 6px;
+      text-align: center;
+      width: 42px;
+    }
+
+    .editor-files {
+      float: left;
+      font-size: 24px;
+      margin-left: 20px;
+    }
+
+
+    @include retina {
+      background-image: url('../images/text_editor@2x.png');
+    }
+  }
+
+  pre code { // Pygments-compatible classes
+    .k  { color: #fa7272; }
+    .nc { color: #cdffd8; }
+    .nf { color: #cdffd8; }
+    .c1 { color: #eba5f1; }
+    .s1 { color: #ffffff; }
+    .o  { color: #fdbd35; }
+  }
 }
 
 // Speaker section
