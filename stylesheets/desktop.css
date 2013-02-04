@@ -55,10 +55,14 @@ table {
 html, body {
   background: #fff6ec;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "Proxima N W01 Reg", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
 =======
   font-family: "Proxima N W01 Reg", Helvetica, Arial, sans-serif;
 >>>>>>> use relatives
+=======
+  font-family: "Proxima N W01 Reg", "proxima-nova", Helvetica, Arial, sans-serif;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
   font-size: 16px; }
 
 html {
@@ -69,6 +73,7 @@ html {
 
 .head {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 50px;
   font-weight: 900;
@@ -76,6 +81,11 @@ html {
   font-family: "Proxima N W01 Black", Helvetica, Arial, sans-serif;
   font-size: 50px;
 >>>>>>> use relatives
+=======
+  font-family: "Proxima N W01 Black", "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
   line-height: 1em;
   margin-bottom: 60px;
   text-align: center;
@@ -129,10 +139,14 @@ html {
   #navigation .links {
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
 =======
     font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
 >>>>>>> use relatives
+=======
+    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
     font-size: 20px;
     line-height: 26px;
     padding-top: 27px;
@@ -152,10 +166,14 @@ html {
     display: block;
     float: right;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
 =======
     font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
 >>>>>>> use relatives
+=======
+    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
     font-size: 20px;
     height: 20px;
     line-height: 25px;
@@ -177,6 +195,7 @@ html {
 .intro-head {
   color: #913f3f;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 120px;
   font-weight: 900;
@@ -184,6 +203,11 @@ html {
   font-family: "Proxima N W01 Black", Helvetica, Arial, sans-serif;
   font-size: 120px;
 >>>>>>> use relatives
+=======
+  font-family: "Proxima N W01 Black", "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
   letter-spacing: -0.03em;
   text-transform: uppercase; }
 
@@ -242,10 +266,14 @@ html {
   color: #dfc8ae;
   display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
 =======
   font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
 >>>>>>> use relatives
+=======
+  font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
   font-size: 30px;
   height: 60px;
   line-height: 65px;
@@ -376,10 +404,14 @@ html {
     color: #5e7062; }
   #themes .theme-head {
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
 =======
     font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
 >>>>>>> use relatives
+=======
+    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
     font-size: 26px;
     margin-bottom: 10px;
     text-transform: uppercase;
