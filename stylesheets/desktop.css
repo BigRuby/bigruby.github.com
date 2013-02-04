@@ -542,6 +542,9 @@ html {
     opacity: 0.8; }
   #sponsors .sponsor {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finish sponsors section
     box-sizing: border-box;
     display: block;
     float: left;
@@ -559,6 +562,7 @@ html {
     width: 25%; }
     #sponsors .silver-sponsors .sponsor.missing {
       background: rgba(0, 0, 0, 0.05); }
+<<<<<<< HEAD
 =======
     display: block;
     float: left;
@@ -570,6 +574,8 @@ html {
     height: 145px;
     width: 25%; }
 >>>>>>> use relatives
+=======
+>>>>>>> Finish sponsors section
   #sponsors .gold-sponsors + .silver-sponsors {
     margin-top: 60px; }
 
