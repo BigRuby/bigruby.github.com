@@ -653,4 +653,38 @@ html {
   .head, .byline {
     color: #7d2219;
   }
+
+  .organizer {
+    color: #293a44;
+    float: left;
+    font-family: $condensedFont;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+
+    .photo img {
+      border: 12px solid #d1dade;
+      border-radius: 180px;
+      height: 180px;
+      width: 180px;
+    }
+  }
+
+  .foot {
+    color: #5c7786;
+    text-transform: none;
+  }
+
+  #ovenbits {
+    display: block;
+    height: 250px;
+    margin: 24px auto;
+    width: 200px;
+    background: url('../images/ovenbits.png') top right no-repeat;
+
+    &:hover {
+      background-position: top left;
+    }
+  }
 }
