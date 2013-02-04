@@ -283,6 +283,9 @@ html {
 
 #editor {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Add Text Editor section
   background: #374454;
   padding-bottom: 0; }
   #editor .container {
@@ -332,9 +335,12 @@ html {
     color: #ffffff; }
   #editor pre code .o {
     color: #fdbd35; }
+<<<<<<< HEAD
 =======
   background: #374454; }
 >>>>>>> use relatives
+=======
+>>>>>>> Add Text Editor section
 
 #speakers {
   background: #445569; }
