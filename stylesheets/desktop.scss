@@ -606,15 +606,25 @@ html {
   }
 
   .sponsor {
+    box-sizing: border-box;
     display: block;
     float: left;
     text-align: center;
+
+    img {
+      vertical-align: middle;
+    }
   }
 
   .gold-sponsors {
     .sponsor {
       height: 175px;
+      line-height: 175px;
       width: 50%;
+
+      &.missing {
+        background: rgba(255,255,255,0.05);
+      }
     }
   }
 
@@ -622,6 +632,10 @@ html {
     .sponsor {
       height: 145px;
       width: 25%;
+
+      &.missing {
+        background: rgba(0,0,0,0.05);
+      }
     }
   }
 

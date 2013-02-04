@@ -409,15 +409,23 @@ html {
   #sponsors .foot a:hover {
     opacity: 0.8; }
   #sponsors .sponsor {
+    box-sizing: border-box;
     display: block;
     float: left;
     text-align: center; }
+    #sponsors .sponsor img {
+      vertical-align: middle; }
   #sponsors .gold-sponsors .sponsor {
     height: 175px;
+    line-height: 175px;
     width: 50%; }
+    #sponsors .gold-sponsors .sponsor.missing {
+      background: rgba(255, 255, 255, 0.05); }
   #sponsors .silver-sponsors .sponsor {
     height: 145px;
     width: 25%; }
+    #sponsors .silver-sponsors .sponsor.missing {
+      background: rgba(0, 0, 0, 0.05); }
   #sponsors .gold-sponsors + .silver-sponsors {
     margin-top: 60px; }
 
