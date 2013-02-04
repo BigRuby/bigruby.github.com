@@ -1,9 +1,9 @@
 // Vars
 // ---------------------------------------------------------------
 
-$condensedFont: 'Proxima N W01 Cd Reg', Helvetica, Arial, sans-serif;
-$regularFont: 'Proxima N W01 Reg', Helvetica, Arial, sans-serif;
-$blockFont: 'Proxima N W01 Black', Helvetica, Arial, sans-serif;
+$condensedFont: 'Proxima N W01 Cd Reg', 'proxima-nova-condensed', Helvetica, Arial, sans-serif;
+$regularFont: 'Proxima N W01 Reg', 'proxima-nova', Helvetica, Arial, sans-serif;
+$blockFont: 'Proxima N W01 Black', 'proxima-nova', Helvetica, Arial, sans-serif;
 $serifFont: Georgia, "Times New Roman", serif;
 
 $buttonRadius: 4px;
@@ -99,6 +99,7 @@ html {
 .head {
   font-family: $blockFont;
   font-size: 50px;
+  font-weight: 900;
   line-height: 1em;
   margin-bottom: 60px;
   text-align: center;
@@ -227,6 +228,7 @@ html {
   color: #913f3f;
   font-family: $blockFont;
   font-size: 120px;
+  font-weight: 900;
   letter-spacing: -0.03em;
   text-transform: uppercase;
 }
