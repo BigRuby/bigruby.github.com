@@ -282,8 +282,58 @@ html {
   background: #445569; }
   #speakers .head {
     color: #fa7272; }
-  #speakers .byline {
+  #speakers .byline, #speakers .foot, #speakers .byline a, #speakers .foot a {
     color: #aaadb0; }
+  #speakers .speaker-row {
+    clear: both;
+    height: 190px;
+    margin-top: 48px;
+    text-align: center; }
+  #speakers .speaker {
+    float: left;
+    width: 190px; }
+  #speakers .speaker-photo {
+    text-align: center; }
+    #speakers .speaker-photo img {
+      border-radius: 108px;
+      height: 108px;
+      width: 108px; }
+    #speakers .speaker-photo.keynote img {
+      border-radius: 156px;
+      height: 156px;
+      margin-top: -48px;
+      width: 156px; }
+  #speakers .speaker-name {
+    color: #fa7272;
+    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase; }
+  #speakers .speaker-company {
+    color: #aaadb0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+    -webkit-font-smoothing: antialiased; }
+  #speakers #featured-speakers {
+    margin: 0 auto;
+    height: 385px;
+    width: 867px; }
+    #speakers #featured-speakers .speaker-featured {
+      background: rgba(48, 60, 76, 0.4);
+      border-radius: 540px;
+      height: 190px;
+      margin-left: -48px;
+      margin-right: -48px;
+      padding-top: 108px;
+      padding-bottom: 88px;
+      width: 385px; }
+      #speakers #featured-speakers .speaker-featured .speaker-name {
+        font-size: 24px; }
+        #speakers #featured-speakers .speaker-featured .speaker-name.not-featured {
+          font-size: 16px;
+          line-height: 48px; }
 
 #themes {
   background: #b1d1b8; }

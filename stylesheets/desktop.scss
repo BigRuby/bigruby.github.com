@@ -396,9 +396,82 @@ html {
     color: #fa7272;
   }
 
-  .byline {
+  .byline, .foot, .byline a, .foot a {
     color: #aaadb0;
   }
+
+  .speaker-row {
+    clear: both;
+    height: 190px;
+    margin-top: 48px;
+    text-align: center;
+  }
+
+  .speaker {
+    float: left;
+    width: 190px;
+  }
+
+  .speaker-photo {
+    text-align: center;
+    img {
+      border-radius: 108px;
+      height: 108px;
+      width: 108px;
+    }
+
+    &.keynote img {
+      border-radius: 156px;
+      height: 156px;
+      margin-top: -48px;
+      width: 156px;
+    }
+  }
+
+  .speaker-name {
+    color: #fa7272;
+    font-family: $condensedFont;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .speaker-company {
+    color: #aaadb0;
+    font-family: $serifFont;
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #featured-speakers {
+    margin: 0 auto;
+    height: 385px;
+    width: 867px;
+
+    .speaker-featured {
+      background: rgba(48, 60, 76, 0.40);
+      border-radius: 540px;
+      height: 190px;
+      margin-left: -48px;
+      margin-right: -48px;
+      padding-top: 108px;
+      padding-bottom: 88px;
+      width: 385px;
+
+      .speaker-name {
+        font-size: 24px;
+
+        &.not-featured {
+          font-size: 16px;
+          line-height: 48px;
+        }
+      }
+    }
+
+  }
+
 }
 
 // Themes section
