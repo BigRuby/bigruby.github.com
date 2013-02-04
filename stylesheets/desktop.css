@@ -584,23 +584,37 @@ html {
   #organizers .head, #organizers .byline {
     color: #7d2219; }
 <<<<<<< HEAD
+<<<<<<< HEAD
   #organizers .organizer {
     color: #293a44;
     float: left;
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+  #organizers .organizer {
+    color: #293a44;
+    float: left;
+    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
+>>>>>>> Add organizers/copyright section
     font-size: 24px;
     text-align: center;
     text-decoration: none;
     width: 20%; }
+<<<<<<< HEAD
     #organizers .organizer .photo {
+=======
+    #organizers .organizer .photo img {
+>>>>>>> Add organizers/copyright section
       border: 12px solid #d1dade;
       border-radius: 180px;
       height: 180px;
       width: 180px; }
+<<<<<<< HEAD
       #organizers .organizer .photo img {
         border-radius: 180px;
         height: 180px;
         width: 180px; }
+=======
+>>>>>>> Add organizers/copyright section
   #organizers .foot {
     color: #5c7786;
     text-transform: none; }
@@ -612,5 +626,8 @@ html {
     background: url("../images/ovenbits.png") top right no-repeat; }
     #organizers #ovenbits:hover {
       background-position: top left; }
+<<<<<<< HEAD
 =======
 >>>>>>> use relatives
+=======
+>>>>>>> Add organizers/copyright section
