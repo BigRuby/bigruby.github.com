@@ -1,0 +1,718 @@
+// Vars
+// ---------------------------------------------------------------
+
+<<<<<<< HEAD
+$condensedFont: 'Proxima N W01 Cd Reg', 'proxima-nova-condensed', "Proxima Nova", Helvetica, Arial, sans-serif;
+$regularFont: 'Proxima N W01 Reg', 'proxima-nova', "Proxima Nova", Helvetica, Arial, sans-serif;
+$blockFont: 'Proxima N W01 Black', 'proxima-nova', "Proxima Nova", Helvetica, Arial, sans-serif;
+=======
+$condensedFont: 'Proxima N W01 Cd Reg', 'proxima-nova-condensed', Helvetica, Arial, sans-serif;
+$regularFont: 'Proxima N W01 Reg', 'proxima-nova', Helvetica, Arial, sans-serif;
+$blockFont: 'Proxima N W01 Black', 'proxima-nova', Helvetica, Arial, sans-serif;
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
+$serifFont: Georgia, "Times New Roman", serif;
+
+$buttonRadius: 4px;
+
+// Mixin
+// ---------------------------------------------------------------
+
+@mixin retina {
+  html.retina & {
+    @content;
+  }
+}
+
+
+// Reset
+// ---------------------------------------------------------------
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Clearfix
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+html, body {
+  background: #fff6ec;
+  font-family: $regularFont;
+  font-size: 16px;
+}
+
+html {
+  background: #bdcad0;
+}
+
+// Shared
+// ---------------------------------------------------------------
+
+.section {
+  padding: 75px 0;
+}
+
+.head {
+  font-family: $blockFont;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1em;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &.with-byline {
+    margin-bottom: 25px;
+  }
+}
+
+.byline {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 20px;
+
+  &.expanded-byline {
+    line-height: 30px;
+  }
+}
+
+.foot {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button {
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 1140px;
+  width: 1140px;
+}
+
+// Top Nav
+// ---------------------------------------------------------------
+
+#navigation {
+  background: #913f3f;
+  height: 80px;
+  left: 0;
+  position: fixed;
+  top: -80px;
+  width: 100%;
+  -webkit-transition: top 0.3s;
+  -moz-transition: top 0.3s;
+  transition: top 0.3s;
+  z-index: 1000;
+
+  #logo {
+    background: url(../images/bg-logo.png) no-repeat 0 10px;
+    display: block;
+    float: left;
+    height: 80px;
+    text-indent: -9999px;
+    width: 100px;
+  }
+
+  .links {
+    float: left;
+    font-family: $condensedFont;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 27px;
+    text-transform: uppercase;
+
+    a {
+      color: #fff6ec;
+      display: block;
+      float: left;
+      margin: 0 20px;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .register {
+    background: #fff6ec;
+    border-radius: $buttonRadius;
+    color: #913f3f;
+    display: block;
+    float: right;
+    font-family: $condensedFont;
+    font-size: 20px;
+    height: 20px;
+    line-height: 25px;
+    margin-top: 13px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.is-scrolled {
+  #navigation {
+    top: 0px;
+  }
+}
+
+// Intro section
+// ---------------------------------------------------------------
+
+#intro {
+  background: #fff6ec url(../images/hero.png) no-repeat bottom center;
+  height: 550px;
+
+  @include retina {
+    background: #fff6ec url(../images/hero@2x.png) no-repeat bottom center;
+    background-size: 1800px 485px;
+  }
+}
+
+.intro-head {
+  color: #913f3f;
+  font-family: $blockFont;
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.intro-byline {
+  color: #913f3f;
+  font-size: 26px;
+  margin: 10px 0 30px 0;
+}
+
+.intro-details {
+  color: #913f3f;
+  font-size: 18px;
+  font-weight: normal;
+
+  &:before {
+    border-top: 5px solid #913f3f;
+    content: "---";
+    display: block;
+    margin-left: -45%;
+    margin-bottom: 11px;
+    text-indent: -9999px;
+    width: 100%;
+  }
+
+  i {
+    font-style: normal;
+    font-size: 1.4em;
+    padding: 0 30px;
+  }
+}
+
+// Register section
+// ---------------------------------------------------------------
+
+#register {
+  background: #e5d0b9;
+
+  .thirds {
+    margin-top: 40px;
+  }
+}
+
+.register-info {
+  color: #807363;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.thirds {
+  .third-bordered {
+    float: left;
+    width: 33%;
+    border-top: 1px solid #807363;
+    border-bottom: 1px solid #807363;
+    font-size: 15px;
+    line-height: 20px;
+    color: #807363;
+    font-family: $serifFont;
+    font-style: italic;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .third-button {
+    float: left;
+    width: 33%;
+  }
+
+  .register-button {
+    background: #807363;
+    border-radius: $buttonRadius;
+    color: #dfc8ae;
+    display: block;
+    font-family: $condensedFont;
+    font-size: 30px;
+    height: 60px;
+    line-height: 65px;
+    margin: 0 80px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+// Editor section
+// ---------------------------------------------------------------
+
+#editor {
+  background: #374454;
+  padding-bottom: 0;
+
+  .container {
+    background: url('../images/text_editor.png') top center no-repeat;
+    height: 443px;
+    line-height: 42px;
+    min-width: 943px;
+    overflow: hidden;
+    padding-top: 60px;
+    width: 943px;
+
+    ul.editor-file-list {
+      float: left;
+      padding-left: 6px;
+      padding-top: 84px;
+      width: 191px;
+
+      li {
+        padding-left: 48px;
+
+        a {
+          color: #e3e3e3;
+          text-decoration: none;
+        }
+
+        &.active {
+          background: url('../images/text_editor_selected_bg.png');
+
+          a {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .editor-line-numbers {
+      color: #e3e3e3;
+      float: left;
+      font-size: 14px;
+      margin-left: 6px;
+      text-align: center;
+      width: 42px;
+    }
+
+    .editor-files {
+      float: left;
+      font-size: 24px;
+      margin-left: 20px;
+    }
+
+
+    @include retina {
+      background-image: url('../images/text_editor@2x.png');
+    }
+  }
+
+  pre code { // Pygments-compatible classes
+    .k  { color: #fa7272; }
+    .nc { color: #cdffd8; }
+    .nf { color: #cdffd8; }
+    .c1 { color: #eba5f1; }
+    .s1 { color: #ffffff; }
+    .o  { color: #fdbd35; }
+  }
+}
+
+// Speaker section
+// ---------------------------------------------------------------
+
+#speakers {
+  background: #445569;
+
+  .head {
+    color: #fa7272;
+  }
+
+  .byline, .foot, .byline a, .foot a {
+    color: #aaadb0;
+  }
+
+  .speaker-row {
+    clear: both;
+    height: 190px;
+    margin-top: 48px;
+    text-align: center;
+  }
+
+  .speaker {
+    float: left;
+    width: 190px;
+  }
+
+  .speaker-photo {
+    text-align: center;
+    img {
+      border-radius: 108px;
+      height: 108px;
+      width: 108px;
+    }
+
+    &.keynote img {
+      border-radius: 156px;
+      height: 156px;
+      margin-top: -48px;
+      width: 156px;
+    }
+  }
+
+  .speaker-name {
+    color: #fa7272;
+    font-family: $condensedFont;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .speaker-company {
+    color: #aaadb0;
+    font-family: $serifFont;
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #featured-speakers {
+    margin: 0 auto;
+    height: 385px;
+    width: 867px;
+
+    .speaker-featured {
+      background: rgba(48, 60, 76, 0.40);
+      border-radius: 540px;
+      height: 190px;
+      margin-left: -48px;
+      margin-right: -48px;
+      padding-top: 108px;
+      padding-bottom: 88px;
+      width: 385px;
+
+      .speaker-name {
+        font-size: 24px;
+
+        &.not-featured {
+          font-size: 16px;
+          line-height: 48px;
+        }
+      }
+    }
+
+  }
+
+}
+
+// Themes section
+// ---------------------------------------------------------------
+
+#themes {
+  background: #b1d1b8;
+
+  .head, .byline, .theme-head, .theme-body, .foot, .foot a {
+    color: #5e7062;
+  }
+
+  .theme-head {
+    font-family: $condensedFont;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-left: 42px;
+    position: relative;
+
+    &:before {
+      background: url(../images/themes-icon.png);
+      content: ">";
+      display: block;
+      height: 42px;
+      left: -20px;
+      position: absolute;
+      text-indent: -9999px;
+      top: 0;
+      width: 42px;
+
+      @include retina {
+        background: url(../images/themes-icon@2x.png);
+        background-size: 100%;
+      }
+    }
+  }
+
+  .theme-body {
+    font-size: 14px;
+    line-height: 2em;
+    padding-left: 42px;
+  }
+
+  .foot a {
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.quads {
+  .group + .group {
+    margin-top: 45px;
+  }
+
+  .quad {
+    float: left;
+    width: 45%;
+  }
+
+  .quad + .quad {
+    float: right;
+  }
+}
+
+// Schedule section
+// ---------------------------------------------------------------
+
+#schedule {
+  background: #fff6ec;
+
+  .head, .byline, .byline a {
+    color: #913f3f;
+  }
+
+  .byline a {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// Locations section
+// ---------------------------------------------------------------
+
+#locations {
+  background: #c76060;
+
+  .head, .byline {
+    color: #913f3f;
+  }
+}
+
+.location-photos {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    height: 146px;
+    width: 220px;
+  }
+}
+
+.location-detail {
+  margin: 0;
+}
+
+.location-photos + .location-detail {
+  margin-top: 60px;
+}
+
+// Sponsors section
+// ---------------------------------------------------------------
+
+#sponsors {
+  background: #3a4d58;
+
+  .head, .byline, .foot, .foot a {
+    color: #fff6ec;
+  }
+
+  .foot a {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .sponsor {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    text-align: center;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  .gold-sponsors {
+    .sponsor {
+      height: 175px;
+      line-height: 175px;
+      width: 50%;
+
+      &.missing {
+        background: rgba(255,255,255,0.05);
+      }
+    }
+  }
+
+  .silver-sponsors {
+    .sponsor {
+      height: 145px;
+      width: 25%;
+
+      &.missing {
+        background: rgba(0,0,0,0.05);
+      }
+    }
+  }
+
+  .gold-sponsors + .silver-sponsors {
+    margin-top: 60px;
+  }
+}
+
+// Organizers section
+// ---------------------------------------------------------------
+
+#organizers {
+  background: #bdcad0;
+
+  .head, .byline {
+    color: #7d2219;
+  }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Add organizers/copyright section
+
+  .organizer {
+    color: #293a44;
+    float: left;
+    font-family: $condensedFont;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+
+<<<<<<< HEAD
+    .photo {
+=======
+    .photo img {
+>>>>>>> Add organizers/copyright section
+      border: 12px solid #d1dade;
+      border-radius: 180px;
+      height: 180px;
+      width: 180px;
+<<<<<<< HEAD
+
+      img {
+        border-radius: 180px;
+        height: 180px;
+        width: 180px;
+      }
+=======
+>>>>>>> Add organizers/copyright section
+    }
+  }
+
+  .foot {
+    color: #5c7786;
+    text-transform: none;
+  }
+
+  #ovenbits {
+    display: block;
+    height: 250px;
+    margin: 24px auto;
+    width: 200px;
+    background: url('../images/ovenbits.png') top right no-repeat;
+
+    &:hover {
+      background-position: top left;
+    }
+  }
+<<<<<<< HEAD
+=======
+>>>>>>> Temprorarily add TypeKit for Proxima Nova
+=======
+>>>>>>> Add organizers/copyright section
+}
