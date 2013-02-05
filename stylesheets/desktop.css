@@ -54,15 +54,7 @@ table {
 
 html, body {
   background: #fff6ec;
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: "Proxima N W01 Reg", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-  font-family: "Proxima N W01 Reg", Helvetica, Arial, sans-serif;
->>>>>>> use relatives
-=======
-  font-family: "Proxima N W01 Reg", "proxima-nova", Helvetica, Arial, sans-serif;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
   font-size: 16px; }
 
 html {
@@ -72,20 +64,9 @@ html {
   padding: 75px 0; }
 
 .head {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
+  font-family: 'Proxima N W01 Black', proxima-nova, 'Proxima Nova', Helvetica, Arial, sans-serif;
   font-size: 50px;
   font-weight: 900;
-=======
-  font-family: "Proxima N W01 Black", Helvetica, Arial, sans-serif;
-  font-size: 50px;
->>>>>>> use relatives
-=======
-  font-family: "Proxima N W01 Black", "proxima-nova", Helvetica, Arial, sans-serif;
-  font-size: 50px;
-  font-weight: 900;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
   line-height: 1em;
   margin-bottom: 60px;
   text-align: center;
@@ -138,16 +119,8 @@ html {
     width: 100px; }
   #navigation .links {
     float: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-    font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
->>>>>>> use relatives
-=======
-    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
     padding-top: 27px;
     text-transform: uppercase; }
@@ -165,15 +138,7 @@ html {
     color: #913f3f;
     display: block;
     float: right;
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-    font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
->>>>>>> use relatives
-=======
-    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
     font-size: 20px;
     height: 20px;
     line-height: 25px;
@@ -194,20 +159,9 @@ html {
 
 .intro-head {
   color: #913f3f;
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
   font-size: 120px;
   font-weight: 900;
-=======
-  font-family: "Proxima N W01 Black", Helvetica, Arial, sans-serif;
-  font-size: 120px;
->>>>>>> use relatives
-=======
-  font-family: "Proxima N W01 Black", "proxima-nova", Helvetica, Arial, sans-serif;
-  font-size: 120px;
-  font-weight: 900;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
   letter-spacing: -0.03em;
   text-transform: uppercase; }
 
@@ -265,15 +219,7 @@ html {
   border-radius: 4px;
   color: #dfc8ae;
   display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
   font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-  font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
->>>>>>> use relatives
-=======
-  font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
   font-size: 30px;
   height: 60px;
   line-height: 65px;
@@ -282,10 +228,6 @@ html {
   text-transform: uppercase; }
 
 #editor {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Add Text Editor section
   background: #374454;
   padding-bottom: 0; }
   #editor .container {
@@ -335,19 +277,11 @@ html {
     color: #ffffff; }
   #editor pre code .o {
     color: #fdbd35; }
-<<<<<<< HEAD
-=======
-  background: #374454; }
->>>>>>> use relatives
-=======
->>>>>>> Add Text Editor section
 
 #speakers {
   background: #445569; }
   #speakers .head {
     color: #fa7272; }
-<<<<<<< HEAD
-<<<<<<< HEAD
   #speakers .byline, #speakers .foot, #speakers .byline a, #speakers .foot a {
     color: #aaadb0; }
   #speakers .speaker-row {
@@ -400,11 +334,7 @@ html {
         #speakers #featured-speakers .speaker-featured .speaker-name.not-featured {
           font-size: 16px;
           line-height: 48px; }
-=======
-  #speakers .byline {
-    color: #aaadb0; }
->>>>>>> use relatives
-=======
+
   #speakers .byline, #speakers .foot, #speakers .byline a, #speakers .foot a {
     color: #aaadb0; }
   #speakers .speaker-row {
@@ -464,15 +394,7 @@ html {
   #themes .head, #themes .byline, #themes .theme-head, #themes .theme-body, #themes .foot, #themes .foot a {
     color: #5e7062; }
   #themes .theme-head {
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-    font-family: "Proxima N W01 Cd Reg", Helvetica, Arial, sans-serif;
->>>>>>> use relatives
-=======
-    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
     font-size: 26px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -541,10 +463,6 @@ html {
   #sponsors .foot a:hover {
     opacity: 0.8; }
   #sponsors .sponsor {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Finish sponsors section
     box-sizing: border-box;
     display: block;
     float: left;
@@ -562,20 +480,14 @@ html {
     width: 25%; }
     #sponsors .silver-sponsors .sponsor.missing {
       background: rgba(0, 0, 0, 0.05); }
-<<<<<<< HEAD
-=======
-    display: block;
-    float: left;
-    text-align: center; }
+
   #sponsors .gold-sponsors .sponsor {
     height: 175px;
     width: 50%; }
   #sponsors .silver-sponsors .sponsor {
     height: 145px;
     width: 25%; }
->>>>>>> use relatives
-=======
->>>>>>> Finish sponsors section
+
   #sponsors .gold-sponsors + .silver-sponsors {
     margin-top: 60px; }
 
@@ -583,38 +495,21 @@ html {
   background: #bdcad0; }
   #organizers .head, #organizers .byline {
     color: #7d2219; }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   #organizers .organizer {
     color: #293a44;
     float: left;
     font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-  #organizers .organizer {
-    color: #293a44;
-    float: left;
-    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", Helvetica, Arial, sans-serif;
->>>>>>> Add organizers/copyright section
     font-size: 24px;
     text-align: center;
     text-decoration: none;
     width: 20%; }
-<<<<<<< HEAD
-    #organizers .organizer .photo {
-=======
-    #organizers .organizer .photo img {
->>>>>>> Add organizers/copyright section
-      border: 12px solid #d1dade;
-      border-radius: 180px;
-      height: 180px;
-      width: 180px; }
-<<<<<<< HEAD
+
       #organizers .organizer .photo img {
         border-radius: 180px;
         height: 180px;
         width: 180px; }
-=======
->>>>>>> Add organizers/copyright section
+
   #organizers .foot {
     color: #5c7786;
     text-transform: none; }
@@ -626,8 +521,3 @@ html {
     background: url("../images/ovenbits.png") top right no-repeat; }
     #organizers #ovenbits:hover {
       background-position: top left; }
-<<<<<<< HEAD
-=======
->>>>>>> use relatives
-=======
->>>>>>> Add organizers/copyright section
