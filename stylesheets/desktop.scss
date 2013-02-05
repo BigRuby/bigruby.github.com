@@ -663,11 +663,17 @@ html {
     text-decoration: none;
     width: 20%;
 
-    .photo img {
+    .photo {
       border: 12px solid #d1dade;
       border-radius: 180px;
       height: 180px;
       width: 180px;
+
+      img {
+        border-radius: 180px;
+        height: 180px;
+        width: 180px;
+      }
     }
   }
 

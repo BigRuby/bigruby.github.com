@@ -441,11 +441,15 @@ html {
     text-align: center;
     text-decoration: none;
     width: 20%; }
-    #organizers .organizer .photo img {
+    #organizers .organizer .photo {
       border: 12px solid #d1dade;
       border-radius: 180px;
       height: 180px;
       width: 180px; }
+      #organizers .organizer .photo img {
+        border-radius: 180px;
+        height: 180px;
+        width: 180px; }
   #organizers .foot {
     color: #5c7786;
     text-transform: none; }
