@@ -1,15 +1,12 @@
+// Compile with:
+// sass --scss -t compressed stylesheets/desktop.scss stylesheets/desktop.css
+
 // Vars
 // ---------------------------------------------------------------
 
-<<<<<<< HEAD
 $condensedFont: 'Proxima N W01 Cd Reg', 'proxima-nova-condensed', "Proxima Nova", Helvetica, Arial, sans-serif;
 $regularFont: 'Proxima N W01 Reg', 'proxima-nova', "Proxima Nova", Helvetica, Arial, sans-serif;
 $blockFont: 'Proxima N W01 Black', 'proxima-nova', "Proxima Nova", Helvetica, Arial, sans-serif;
-=======
-$condensedFont: 'Proxima N W01 Cd Reg', 'proxima-nova-condensed', Helvetica, Arial, sans-serif;
-$regularFont: 'Proxima N W01 Reg', 'proxima-nova', Helvetica, Arial, sans-serif;
-$blockFont: 'Proxima N W01 Black', 'proxima-nova', Helvetica, Arial, sans-serif;
->>>>>>> Temprorarily add TypeKit for Proxima Nova
 $serifFont: Georgia, "Times New Roman", serif;
 
 $buttonRadius: 4px;
@@ -659,10 +656,6 @@ html {
   .head, .byline {
     color: #7d2219;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Add organizers/copyright section
 
   .organizer {
     color: #293a44;
@@ -673,24 +666,17 @@ html {
     text-decoration: none;
     width: 20%;
 
-<<<<<<< HEAD
     .photo {
-=======
-    .photo img {
->>>>>>> Add organizers/copyright section
       border: 12px solid #d1dade;
       border-radius: 180px;
       height: 180px;
       width: 180px;
-<<<<<<< HEAD
 
       img {
         border-radius: 180px;
         height: 180px;
         width: 180px;
       }
-=======
->>>>>>> Add organizers/copyright section
     }
   }
 
@@ -710,9 +696,4 @@ html {
       background-position: top left;
     }
   }
-<<<<<<< HEAD
-=======
->>>>>>> Temprorarily add TypeKit for Proxima Nova
-=======
->>>>>>> Add organizers/copyright section
 }
