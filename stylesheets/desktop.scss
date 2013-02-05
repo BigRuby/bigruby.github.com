@@ -376,6 +376,7 @@ html {
 
     @include retina {
       background-image: url('../images/text_editor@2x.png');
+      background-size: 100%;
     }
   }
 
