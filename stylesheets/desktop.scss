@@ -632,6 +632,18 @@ html {
         background: rgba(255,255,255,0.05);
       }
     }
+
+    &.single .sponsor  {
+      width: 100%;
+      float: none;
+      text-align: center;
+    }
+
+    .label {
+      font-size: 16px;
+      margin-top: 0;
+      opacity: 0.8;
+    }
   }
 
   .silver-sponsors {
