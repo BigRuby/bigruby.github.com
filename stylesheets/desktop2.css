@@ -230,6 +230,26 @@ html {
   margin: 0 60px;
   text-align: center;
   text-transform: uppercase; }
+.thirds #mc_embed_signup {
+  /*margin: 0 60px;*/
+  font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif; }
+  .thirds #mc_embed_signup input {
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+    margin: 0 60px; }
+  .thirds #mc_embed_signup .register-button {
+    height: 30px;
+    font-size: 15px;
+    line-height: 32.5px;
+    margin-left: 120px; }
+  .thirds #mc_embed_signup input[type=email] {
+    width: 80%;
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-left: 40px;
+    border-radius: 4px;
+    color: #445569; }
 
 #editor {
   background: #374454;

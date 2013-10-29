@@ -322,6 +322,34 @@ html {
     text-align: center;
     text-transform: uppercase;
   }
+
+  #mc_embed_signup  {
+    /*margin: 0 60px;*/
+    font-family: $condensedFont;
+
+    input {
+      font-size: 30px;
+      border: 0;
+      cursor: pointer;
+      margin: 0 60px;
+    }
+
+    .register-button {
+      height: 30px;
+      font-size: 15px;
+      line-height: 32.5px;
+      margin-left: 120px;
+    }
+
+    input[type=email] {
+      width: 80%;
+      font-size: 20px;
+      margin-bottom: 7px;
+      margin-left: 40px;
+      border-radius: $buttonRadius;
+      color: #445569;
+    }
+  }
 }
 
 // Editor section
