@@ -242,7 +242,8 @@ html {
     font-size: 15px;
     line-height: 30px;
     margin-left: 100px;
-    cursor: pointer; }
+    cursor: pointer;
+    width: 50%; }
   .thirds #mc_embed_signup input[type=email] {
     width: 80%;
     font-size: 20px;
