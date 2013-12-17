@@ -509,6 +509,73 @@ html {
     #organizers #ovenbits:hover {
       background-position: top left; }
 
+#hackers {
+  background: #3a4d58; }
+  #hackers .head, #hackers .byline, #hackers .foot, #hackers .foot a {
+    color: #fff6ec; }
+  #hackers h3.head {
+    font-size: 40px; }
+  #hackers .talks {
+    margin: 0 20px; }
+  #hackers .talks > div {
+    float: left;
+    margin: 0 30px;
+    height: 240px; }
+  #hackers .foot {
+    color: #fff6ec;
+    clear: both;
+    padding-top: 20px; }
+  #hackers .speaker-row {
+    clear: both;
+    height: 190px;
+    margin-top: 48px;
+    text-align: center; }
+  #hackers .speaker {
+    float: left;
+    width: 190px; }
+  #hackers .speaker-photo {
+    text-align: center; }
+    #hackers .speaker-photo img {
+      border-radius: 108px;
+      height: 108px;
+      width: 108px; }
+    #hackers .speaker-photo.keynote img {
+      border-radius: 156px;
+      height: 156px;
+      margin-top: -48px;
+      width: 156px; }
+  #hackers .speaker-name {
+    color: #fa7272;
+    font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase; }
+  #hackers .speaker-company {
+    color: #aaadb0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+    -webkit-font-smoothing: antialiased; }
+  #hackers #featured-speakers {
+    margin: 0 auto;
+    height: 385px;
+    width: 867px; }
+    #hackers #featured-speakers .speaker-featured {
+      background: rgba(48, 60, 76, 0.4);
+      border-radius: 540px;
+      height: 190px;
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-top: 108px;
+      padding-bottom: 88px;
+      width: 385px; }
+      #hackers #featured-speakers .speaker-featured .speaker-name {
+        font-size: 24px; }
+        #hackers #featured-speakers .speaker-featured .speaker-name.not-featured {
+          font-size: 16px;
+          line-height: 48px; }
+
 #code-of-conduct {
   background: #bdcad0;
   font-family: "Proxima N W01 Cd Reg", "proxima-nova-condensed", "Proxima Nova", Helvetica, Arial, sans-serif;
