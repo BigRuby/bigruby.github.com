@@ -791,3 +791,34 @@ html {
     margin-left: 40px;
   }
 }
+
+#cfh {
+  background: #bdcad0;
+  font-family: $condensedFont;
+  font-size: 18px;
+  line-height: 1.2em;
+
+  .head, .byline, a {
+    color: #7d2219;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 30px 0;
+  }
+  ul {
+    list-style: square;
+  }
+  li {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+}
