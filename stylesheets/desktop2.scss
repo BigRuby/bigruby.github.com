@@ -927,3 +927,44 @@ html {
     margin-left: 40px;
   }
 }
+
+// scholarship section
+// ---------------------------------------------------------------
+
+#scholarship {
+  background: #bdcad0;
+  font-family: $condensedFont;
+  font-size: 20px;
+  line-height: 1.2em;
+  .head, .byline, a {
+    color: #7d2219;
+  }
+  h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #7d2219;
+  }
+  h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #7d2219;
+  } 
+  p {
+    margin: 30px 0px;
+  }
+  ul {
+    list-style: square;
+  }
+  li {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  .note {
+    color:#7d2219;
+  }
+  #apply{
+    margin-left:450px;
+  } 
+  
+}
+
