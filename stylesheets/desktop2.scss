@@ -968,3 +968,23 @@ html {
   
 }
 
+#opportunity {
+  background: #3a4d00;
+
+  .head, .byline, .foot, .foot a {
+    color: #fff6ec;
+  }
+
+  h3.head {
+    font-size: 40px;
+  }
+  .byline{
+    margin-bottom:30px;
+  }
+  .foot{
+    margin-top:0px;
+    margin-bottom:10px;
+  }
+
+}
+

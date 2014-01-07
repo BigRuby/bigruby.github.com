@@ -638,3 +638,15 @@ html {
     color: #7d2219; }
   #scholarship #apply {
     margin-left: 450px; }
+
+#opportunity {
+  background: #3a4d00; }
+  #opportunity .head, #opportunity .byline, #opportunity .foot, #opportunity .foot a {
+    color: #fff6ec; }
+  #opportunity h3.head {
+    font-size: 40px; }
+  #opportunity .byline {
+    margin-bottom: 30px; }
+  #opportunity .foot {
+    margin-top: 0px;
+    margin-bottom: 10px; }
