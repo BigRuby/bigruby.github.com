@@ -96,7 +96,7 @@ html {
 // ---------------------------------------------------------------
 
 .section {
-  padding: 25px 0;
+  padding: 75px 0;
 }
 
 .head {
@@ -219,17 +219,12 @@ html {
 // ---------------------------------------------------------------
 
 #intro {
-  padding-top: 0;
-
-  background: #fff6ec url(../images/hero.png) no-repeat bottom right;
-  background-size: auto 300px;
-  height: 250px;
-  
+  background: #fff6ec url(../images/hero.png) no-repeat bottom center;
+  height: 550px;
 
   @include retina {
-    background: #fff6ec url(../images/hero@2x.png) no-repeat bottom right;
-    /*background-size: 1800px 485px;*/
-    background-size: auto 300px;
+    background: #fff6ec url(../images/hero@2x.png) no-repeat bottom center;
+    background-size: 1800px 485px;
   }
 }
 
@@ -469,7 +464,7 @@ html {
 
   .speaker {
     float: left;
-    width: 190px;
+    width: 225px;
   }
 
   .speaker-photo {

@@ -11,11 +11,11 @@
     var scroll;
     html = $(html);
     scroll = function() {
-      if ($(window).scrollTop() > 675) {
-        return html.addClass('is-scrolled');
-      } else {
-        return html.removeClass('is-scrolled');
-      }
+      // if ($(window).scrollTop() > 675) {
+      //   return html.addClass('is-scrolled');
+      // } else {
+      //   return html.removeClass('is-scrolled');
+      // }
     };
     scroll();
     return $(window).on('scroll', scroll);

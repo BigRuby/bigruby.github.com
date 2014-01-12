@@ -61,7 +61,7 @@ html {
   background: #bdcad0; }
 
 .section {
-  padding: 25px 0; }
+  padding: 75px 0; }
 
 .head {
   font-family: "Proxima N W01 Black", "proxima-nova", "Proxima Nova", Helvetica, Arial, sans-serif;
@@ -152,14 +152,11 @@ html {
   top: 0px; }
 
 #intro {
-  padding-top: 0;
-  background: #fff6ec url(../images/hero.png) no-repeat bottom right;
-  background-size: auto 300px;
-  height: 250px; }
+  background: #fff6ec url(../images/hero.png) no-repeat bottom center;
+  height: 550px; }
   html.retina #intro {
-    background: #fff6ec url(../images/hero@2x.png) no-repeat bottom right;
-    /*background-size: 1800px 485px;*/
-    background-size: auto 300px; }
+    background: #fff6ec url(../images/hero@2x.png) no-repeat bottom center;
+    background-size: 1800px 485px; }
 
 .intro-head {
   color: #913f3f;
@@ -330,7 +327,7 @@ html {
     text-align: center; }
   #speakers .speaker {
     float: left;
-    width: 190px; }
+    width: 225px; }
   #speakers .speaker-photo {
     text-align: center; }
     #speakers .speaker-photo img {
