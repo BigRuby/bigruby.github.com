@@ -418,6 +418,30 @@ html {
     color: #913f3f; }
   #schedule .byline a:hover {
     opacity: 0.8; }
+  #schedule .day {
+    width: 30%;
+    float: left;
+    padding: 0 15px; }
+  #schedule ul {
+    color: #913f3f; }
+    #schedule ul li {
+      font-size: 24px;
+      text-transform: uppercase;
+      border-left: 3px solid #913f3f;
+      padding: 10px; }
+      #schedule ul li .speaker {
+        display: block;
+        font-size: 14px; }
+      #schedule ul li .time {
+        font-size: 14px;
+        text-transform: none; }
+      #schedule ul li.title {
+        border: 3px solid #913f3f; }
+      #schedule ul li.title-reverse {
+        background: #913f3f;
+        color: #fff6ec; }
+      #schedule ul li.filler {
+        height: 22px; }
 
 #locations {
   background: #c76060; }

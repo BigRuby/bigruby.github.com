@@ -610,6 +610,46 @@ html {
       opacity: 0.8;
     }
   }
+
+  .day {
+    width: 30%;
+    float: left;
+    padding: 0 15px;
+  }
+
+  ul {
+    color: #913f3f;
+
+    li {
+      font-size: 24px;
+      text-transform: uppercase;
+      border-left: 3px solid #913f3f;
+      padding: 10px;
+
+      .speaker {
+        display: block;
+        font-size: 14px;        
+      }
+
+      .time {
+        font-size: 14px;
+        text-transform: none;
+      }
+
+      &.title {
+        border: 3px solid #913f3f;
+      }
+
+      &.title-reverse {
+        background: #913f3f;
+        color: #fff6ec;
+      }
+
+      &.filler {
+        height: 22px;
+      }
+    }
+  }
 }
 
 // Locations section
