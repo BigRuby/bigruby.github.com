@@ -435,6 +435,15 @@ html {
       #schedule ul li .time {
         font-size: 14px;
         text-transform: none; }
+      #schedule ul li a {
+        cursor: pointer; }
+      #schedule ul li .description {
+        margin-top: 10px;
+        font-size: 14px;
+        text-transform: none;
+        line-height: 1.15em; }
+        #schedule ul li .description strong {
+          font-weight: bold; }
       #schedule ul li.title {
         border: 3px solid #913f3f; }
       #schedule ul li.title-reverse {

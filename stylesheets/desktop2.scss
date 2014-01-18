@@ -636,6 +636,21 @@ html {
         text-transform: none;
       }
 
+      a {
+        cursor: pointer;
+      }
+
+      .description {
+        margin-top: 10px;
+        font-size: 14px;
+        text-transform: none;
+        line-height: 1.15em;
+
+        strong {
+          font-weight: bold;
+        }
+      }
+
       &.title {
         border: 3px solid #913f3f;
       }

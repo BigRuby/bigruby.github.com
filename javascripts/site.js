@@ -25,6 +25,12 @@
     $('[data-action="tabs"] a').on('click', function(event) {
       event.preventDefault();
     });
+
+    $('#schedule ul li a').click(function() {
+      $this = $(this);
+      $desc = $this.parent().find('.description');
+      $desc.toggle();
+    });
   });
 
 }).call(this);
