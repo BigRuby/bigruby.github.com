@@ -472,9 +472,11 @@ html {
   margin-top: 60px; }
 
 #sponsors {
-  background: #3a4d58; }
+  /*background: #3a4d58;*/
+  background: #fff6ec;
+  background: #fff; }
   #sponsors .head, #sponsors .byline, #sponsors .foot, #sponsors .foot a {
-    color: #fff6ec; }
+    color: #3a4d58; }
   #sponsors .foot a:hover {
     opacity: 0.8; }
   #sponsors .sponsor {
@@ -491,11 +493,14 @@ html {
     width: 50%; }
     #sponsors .gold-sponsors .sponsor.missing {
       background: rgba(255, 255, 255, 0.05); }
-  #sponsors .silver-sponsors .sponsor {
-    height: 145px;
-    width: 25%; }
-    #sponsors .silver-sponsors .sponsor.missing {
-      background: rgba(0, 0, 0, 0.05); }
+  #sponsors .silver-sponsors {
+    margin: 0 auto; }
+    #sponsors .silver-sponsors .sponsor {
+      height: 145px;
+      width: 20%;
+      margin: 0 6.5%; }
+      #sponsors .silver-sponsors .sponsor.missing {
+        background: rgba(0, 0, 0, 0.05); }
   #sponsors .gold-sponsors + .silver-sponsors {
     margin-top: 60px; }
 

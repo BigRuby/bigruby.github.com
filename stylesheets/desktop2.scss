@@ -703,10 +703,12 @@ html {
 // ---------------------------------------------------------------
 
 #sponsors {
-  background: #3a4d58;
+  /*background: #3a4d58;*/
+  background: #fff6ec;
+  background: #fff;
 
   .head, .byline, .foot, .foot a {
-    color: #fff6ec;
+    color: #3a4d58;
   }
 
   .foot a {
@@ -740,9 +742,12 @@ html {
   }
 
   .silver-sponsors {
+    margin: 0 auto;
+
     .sponsor {
       height: 145px;
-      width: 25%;
+      width: 20%;
+      margin: 0 6.5%;
 
       &.missing {
         background: rgba(0,0,0,0.05);
