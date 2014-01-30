@@ -498,7 +498,7 @@ html {
     #sponsors .silver-sponsors .sponsor {
       height: 145px;
       width: 20%;
-      margin: 0 6.5%; }
+      margin: 0 2%; }
       #sponsors .silver-sponsors .sponsor.missing {
         background: rgba(0, 0, 0, 0.05); }
   #sponsors .gold-sponsors + .silver-sponsors {
